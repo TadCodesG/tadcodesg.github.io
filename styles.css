@@ -1,5 +1,8 @@
 #par1{
     font-family: Impact;
     background-color: blueviolet;
-    border-radius: 50%;
+    border-radius: 25%;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
 }
