@@ -1,12 +1,10 @@
 body {
-  width: 100%;
-  height: 100%;
   background-size: 400% 400%;
   background-color: #1c1c1c;
-  animation: BG 5s ease infinite;
+  animation: BodyBg 3s ease infinite;
 }
 
-@keyframes BG {
+@keyframes BodyBg {
   0% {
         background-color: #1c1c1c;
   }
@@ -15,5 +13,33 @@ body {
   }
   100% {
         background-color: #1c1c1c;
+  }
+}
+
+.title {
+  width: 30%;
+  border-radius: 30%;
+  font-family: monospace;
+  font-style: italic;
+  background-color: #ff0000;
+  text-align: center;
+  animation: TitleBg 7s ease-in infinite;
+}
+
+@keyframes TitleBg {
+  0% {
+    background-color: #ff0000;
+  }
+  25% {
+    background-color: #00ff0d;
+  }
+  50% {
+    background-color: #3600ff;
+  }
+  75% {
+    background-color: #ff00d4;
+  }
+  100% {
+    background-color: #ff0000
   }
 }
