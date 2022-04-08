@@ -1,17 +1,39 @@
 body {
-  background-size: 400% 400%;
-  background-color: #1c1c1c;
-  animation: BodyBg 3s ease infinite;
+    background-size: 400% 400%;
+    background-color: #1c1c1c;
+    animation: BodyBg 3s ease infinite;
+}
+
+/* Center image in a div */
+.profilepic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    height: 10%;
+    transition: transform 1s;
+}
+
+.profilepic:hover {
+    transform: rotate(360deg);
+}
+
+.Title {
+    color: #ffffff;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-top: 1.5%;
 }
 
 @keyframes BodyBg {
-  0% {
+    0% {
         background-color: #1c1c1c;
-  }
-  50% {
+    }
+    50% {
         background-color: #292929;
-  }
-  100% {
+    }
+    100%  {
         background-color: #1c1c1c;
-  }
+    }
 }
